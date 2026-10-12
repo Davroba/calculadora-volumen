@@ -17,6 +17,7 @@ masa_kg = masa_gramos / 1000
 
 coste = masa_kg * precio_kg
 
-print("Volumen:", volumen_cm3, "cm3")
-print("Masa:", masa_gramos, "gramos")
-print("Coste del material:", coste, "euros")
+print("=== RESULTADOS DE LA PIEZA ===")
+print(f"Volumen: {volumen_cm3:.2f} cm3")
+print(f"Masa: {masa_gramos:.2f} gramos")
+print(f"Coste: {coste:.2f} euros")
