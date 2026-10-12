@@ -1,12 +1,13 @@
 
 def calcular_volumen(largo, ancho, alto):
-    volumen = largo * ancho * alto
-    return volumen
+    return largo * ancho * alto
 
 largo = 120
 ancho = 80
 alto = 50
 
-resultado = calcular_volumen(largo, ancho, alto)
+volumen_mm3 = calcular_volumen(largo, ancho, alto)
+volumen_cm3 = volumen_mm3 / 1000
 
-print("Volumen de la pieza:", resultado, "mm³")
+print("Volumen en mm³:", volumen_mm3)
+print("Volumen en cm³:", volumen_cm3)
